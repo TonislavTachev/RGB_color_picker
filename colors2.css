@@ -1,0 +1,74 @@
+body{
+    background-color: #232323;
+    margin:0;
+    font-family:"Avenir";
+  
+  }
+  h1{
+    text-align: center;
+    color:white;
+    background-color: steelblue;
+    margin:0;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding: 20px 0;
+  }
+  
+  #display{
+    font-size: 200%;
+  }
+  .square{
+    background: purple;
+    width:30%;
+    padding-bottom: 30%;
+    float:left;
+    margin:1.66%;
+    border-radius: 20px;
+  }
+  
+  button{
+    border:none;
+    background: none;
+    text-transform: uppercase;
+    height:100%; /*takes 100% of the containing element or the div*/
+    font-weight: 700;
+    color:steelblue;
+    transition:all 0.3s; /*for fading effect*/
+  }
+  
+  button:hover{
+    background-color: steelblue;
+    color:white;
+  }
+  
+  button:active{
+      border:none;
+  }
+  
+  .activated{
+    background: steelblue;
+    color:white;
+  }
+  
+  
+  .message{
+    display:inline-block; /*takes up it's place in the div*/
+    width:20%; /*20% out of the containing div*/
+    text-align: center;
+  }
+  
+  .container{
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  #navbar{
+    background-color: white;
+    height:30px;
+    text-align:center;
+    color:b
+  }
+  .delete{
+    background-color: red;
+  }
+  
